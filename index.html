@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apartments for Rent</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Apartments for Rent</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#apartments">Our Apartments</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container">
+                <h2>Welcome to Your New Home</h2>
+                <p>Discover our premium apartments that blend style and comfort in perfect harmony. Explore our listings
+                    and find the perfect place to call home!</p>
+            </div>
+        </section>
+
+        <section id="apartments">
+            <div class="container">
+                <h2>Our Apartments</h2>
+                <div class="apartment-grid">
+                    <!-- Example Apartment Listing -->
+                    <div class="apartment-item">
+                        <div class="apartment-images">
+                            <img src="./image1.jpeg" alt="Modern Apartment - Image 1">
+                            <img src="./img2.jpeg" alt="Modern Apartment - Image 2">
+                            <img src="./img3.jpeg" alt="Modern Apartment - Image 3">
+                        </div>
+                        <h3>Spacious Modern Apartment</h3>
+                        <p class="short-description">Located in the heart of the city with easy access to amenities.</p>
+                        <button class="view-details">View Details</button>
+                        <div class="full-details">
+                            <p>🏡 1 Bedroom, 1 Bathroom Apartment for Rent – Prime Location!
+                            💰 Rent: $700
+                             Available: Available now
+                            
+                            Key Features:
+                            
+                            - Spacious Layout: Bright 1BD/1BA with open living area.
+                            - Modern Kitchen: Stainless steel appliances & ample storage.
+                            - Cozy Bedroom: Large closet, fits a king-sized bed.
+                            - Updated Bathroom: Stylish fixtures & shower/tub combo.
+                            - In-Unit Laundry: Washer & dryer included.
+                            - Pet-Friendly: Pets welcome (No deposit required).
+                            
+                            Community Perks:
+                            
+                            - Secure building, on-site gym, rooftop terrace with views.
+                            - Close to shopping, dining, and public transit.
+                            
+                    
+                            
+                            Interested? Contact us at +1 443-692-8591 to schedule a viewing!</p>
+                        </div>
+                    </div>
+                    <div class="apartment-item">
+                        <div class="apartment-images">
+                            <img src="./img11.jpeg" alt="Cozy Studio - Image 1">
+                            <img src="./img22.jpeg" alt="Cozy Studio - Image 2">
+                            <img src="./img33.jpeg" alt="Cozy Studio - Image 3">
+                        </div>
+                        <h3>Cozy Single Apartment</h3>
+                        <p class="short-description">Perfect for individuals or couples looking for a cozy retreat.</p>
+                        <button class="view-details">View Details</button>
+                        <div class="full-details">
+                            <p>🏡 1 Bedroom, 1 Bathroom Apartment for Rent – Modern Living in a Prime Location
+                            
+                            🛏️ Bedrooms: 1
+                            🛁 Bathrooms: 1
+                            🏠 Square Footage: 650sqft
+                            💰 Rent: $700
+                            
+                            Availability: Available now
+                            
+                            Apartment Features:
+                            
+                            • Spacious Living Area: Enjoy a bright and open living space, perfect for relaxing or entertaining guests.
+                            • Modern Kitchen: Fully equipped with stainless steel appliances, sleek countertops, and ample cabinet space.
+                            • Comfortable Bedroom: The generously sized bedroom offers plenty of room for a king-sized bed, with a large closet for
+                            all your storage needs.
+                            • Updated Bathroom: The bathroom features modern fixtures, a large mirror, and a bathtub/shower combo for your
+                            convenience.
+                            • In-Unit Laundry: Washer and dryer included for your convenience.
+</p>
+                        </div>
+                    </div>
+                    <!-- Add more apartment items as needed -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form id="contact-form" action="https://formspree.io/f/mdkndvoz" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="Number">Number:</label>
+                    <input type="Number" id="Number" name="Number" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Apartments for Rent. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
